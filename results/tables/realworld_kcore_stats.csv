@@ -1,0 +1,3 @@
+dataset,num_nodes,num_edges,density,avg_degree,degeneracy_kmax,avg_core_number,num_connected_components
+Zachary_Karate_Club,34,78,0.139037,4.5882,4,2.9118,1
+Dolphins_Social_Network,62,169,0.089371,5.4516,5,3.371,8

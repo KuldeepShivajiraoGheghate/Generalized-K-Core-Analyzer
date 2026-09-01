@@ -1,0 +1,4 @@
+layer,num_nodes,num_edges,max_core_degeneracy,avg_core,composite_k_threshold,composite_surviving_nodes
+social_follow,120,427,5,4.7,2,115
+collaboration,120,275,3,2.717,2,115
+communication,120,353,4,3.708,2,115
