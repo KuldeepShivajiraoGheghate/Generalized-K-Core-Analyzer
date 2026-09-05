@@ -160,16 +160,71 @@ Open your browser at `http://localhost:8501`.
 
 ## 📊 Benchmark Summary
 
+st.markdown("""
 ### Static Scaling: Naive Peeling vs. Batagelj-Zaversnik
 
-| Graph Size ($|V|$) | Edge Count ($|E|$) | Naive Peeling ($O(V \cdot E)$) | Batagelj-Zaversnik ($O(V+E)$) | Speedup Factor |
-|:---:|:---:|:---:|:---:|:---:|
-| 50 | 46 | 0.75 ms | 0.05 ms | **15.1x** |
-| 100 | 175 | 2.72 ms | 0.11 ms | **25.1x** |
-| 250 | 1,204 | 27.96 ms | 0.61 ms | **46.0x** |
-| 500 | 4,878 | 256.64 ms | 1.69 ms | **151.4x** |
-| 1,000 | 19,817 | 2,005.35 ms | 6.89 ms | **290.9x** |
-| 1,500 | 44,799 | 7,265.46 ms | 18.01 ms | **403.5x** |
+<table style="width:100%; border-collapse:collapse; margin-top:10px;">
+<thead>
+<tr>
+<th style="text-align:center; padding:10px;">Graph Size (|V|)</th>
+<th style="text-align:center; padding:10px;">Edge Count (|E|)</th>
+<th style="text-align:center; padding:10px;">Naive Peeling (O(V · E))</th>
+<th style="text-align:center; padding:10px;">Batagelj-Zaversnik (O(V + E))</th>
+<th style="text-align:center; padding:10px;">Speedup Factor</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align:center; padding:8px;">50</td>
+<td style="text-align:center; padding:8px;">46</td>
+<td style="text-align:center; padding:8px;">0.75 ms</td>
+<td style="text-align:center; padding:8px;">0.05 ms</td>
+<td style="text-align:center; padding:8px;"><strong>15.1×</strong></td>
+</tr>
+
+<tr>
+<td style="text-align:center; padding:8px;">100</td>
+<td style="text-align:center; padding:8px;">175</td>
+<td style="text-align:center; padding:8px;">2.72 ms</td>
+<td style="text-align:center; padding:8px;">0.11 ms</td>
+<td style="text-align:center; padding:8px;"><strong>25.1×</strong></td>
+</tr>
+
+<tr>
+<td style="text-align:center; padding:8px;">250</td>
+<td style="text-align:center; padding:8px;">1,204</td>
+<td style="text-align:center; padding:8px;">27.96 ms</td>
+<td style="text-align:center; padding:8px;">0.61 ms</td>
+<td style="text-align:center; padding:8px;"><strong>46.0×</strong></td>
+</tr>
+
+<tr>
+<td style="text-align:center; padding:8px;">500</td>
+<td style="text-align:center; padding:8px;">4,878</td>
+<td style="text-align:center; padding:8px;">256.64 ms</td>
+<td style="text-align:center; padding:8px;">1.69 ms</td>
+<td style="text-align:center; padding:8px;"><strong>151.4×</strong></td>
+</tr>
+
+<tr>
+<td style="text-align:center; padding:8px;">1,000</td>
+<td style="text-align:center; padding:8px;">19,817</td>
+<td style="text-align:center; padding:8px;">2,005.35 ms</td>
+<td style="text-align:center; padding:8px;">6.89 ms</td>
+<td style="text-align:center; padding:8px;"><strong>290.9×</strong></td>
+</tr>
+
+<tr>
+<td style="text-align:center; padding:8px;">1,500</td>
+<td style="text-align:center; padding:8px;">44,799</td>
+<td style="text-align:center; padding:8px;">7,265.46 ms</td>
+<td style="text-align:center; padding:8px;">18.01 ms</td>
+<td style="text-align:center; padding:8px;"><strong>403.5×</strong></td>
+</tr>
+</tbody>
+</table>
+""", unsafe_allow_html=True)
 
 ---
 
