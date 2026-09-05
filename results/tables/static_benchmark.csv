@@ -1,13 +1,13 @@
 num_nodes,num_edges,density,algorithm,runtime_ms,degeneracy
-50,46,0.03755,Naive (FR-2),0.753,2
-50,46,0.03755,Batagelj-Zaversnik (FR-3),0.05,2
-100,175,0.03535,Naive (FR-2),2.724,3
-100,175,0.03535,Batagelj-Zaversnik (FR-3),0.109,3
-250,1204,0.03868,Naive (FR-2),27.961,6
-250,1204,0.03868,Batagelj-Zaversnik (FR-3),0.607,6
-500,4878,0.0391,Naive (FR-2),256.644,14
-500,4878,0.0391,Batagelj-Zaversnik (FR-3),1.695,14
-1000,19817,0.03967,Naive (FR-2),2005.347,29
-1000,19817,0.03967,Batagelj-Zaversnik (FR-3),6.894,29
-1500,44799,0.03985,Naive (FR-2),7265.456,46
-1500,44799,0.03985,Batagelj-Zaversnik (FR-3),18.006,46
+50,46,0.03755,Naive (FR-2),0.712,2
+50,46,0.03755,Batagelj-Zaversnik (FR-3),0.07,2
+100,175,0.03535,Naive (FR-2),4.229,3
+100,175,0.03535,Batagelj-Zaversnik (FR-3),0.152,3
+250,1204,0.03868,Naive (FR-2),31.06,6
+250,1204,0.03868,Batagelj-Zaversnik (FR-3),0.651,6
+500,4878,0.0391,Naive (FR-2),189.36,14
+500,4878,0.0391,Batagelj-Zaversnik (FR-3),1.687,14
+1000,19817,0.03967,Naive (FR-2),1760.301,29
+1000,19817,0.03967,Batagelj-Zaversnik (FR-3),12.2,29
+1500,44799,0.03985,Naive (FR-2),10019.175,46
+1500,44799,0.03985,Batagelj-Zaversnik (FR-3),21.487,46
